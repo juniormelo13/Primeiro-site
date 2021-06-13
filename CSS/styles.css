@@ -1,0 +1,70 @@
+body {
+  background: #f7f7f7f7;
+  font-family: verdana;
+  margin: auto;
+  max-width: 1300px;
+}
+
+#title,
+.subtitle,
+.post_title {
+  color: #505050;
+}
+
+#title {
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+a {
+  text-decoration: underline;
+  color: #505050;
+}
+
+.post_title {
+  font-size: 16px;
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.post {
+  background: white;
+  padding: 15px;
+  border: 3px solid #505050;
+  margin-bottom: 15px;
+  border-radius: 10px 10px;
+}
+
+.post_content {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.post_image {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.saiba_mais_list {
+  list-style-type: none;
+  margin: 0px;
+  margin-bottom: 15px;
+  padding: 5px;
+  background-color: white;
+  border: 3px solid #505050;
+  border-radius: 10px 10px;
+}
+
+.saiba_mais_list li a {
+  text-decoration: none;
+  color: blue;
+  font-size: 15px;
+}
